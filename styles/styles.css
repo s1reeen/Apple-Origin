@@ -89,7 +89,7 @@ header {
 /*hero-section*/
 
 .hero{
-    background-image: url(/iPhone.jpg);
+    background-image: url(../images/iPhone.jpg);
     display: flex;
     padding: 200px 0;
     flex-direction: column;
