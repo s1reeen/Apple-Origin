@@ -47,6 +47,10 @@ ul {
 
 /*header*/
 
+header {
+    border-bottom: 1px solid #000;
+}
+
 .top-logo {
     padding: 20px 0;
 }
@@ -80,4 +84,39 @@ ul {
 .nav-links-blue {
     color: var(--accent-color);
     font-weight: 600;
+}
+
+/*hero-section*/
+
+.hero{
+    background-image: url(/images/iPhone.jpg);
+    display: flex;
+    padding: 200px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+}
+
+.button {
+    background: #E7E7E7;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    align-items: center;
+    display: flex;
+    padding: 8px 85px 8px 85px;
+}
+
+.src-img {
+    margin-right: 5px;
 }
